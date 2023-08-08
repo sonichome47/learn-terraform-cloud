@@ -1,4 +1,4 @@
-resource "aws_instance" "ubuntu03" {
+resource "aws_instance" "ubuntu05" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
 
